@@ -16,3 +16,16 @@
 // 입력과 제거는 어디에서 하는냐에 따라 다른게
 // push, pop 처럼 배열 끝 입력, 제거는 O(1)
 // shift, unshift 처럼 배열 앞에 입력, 삭제는 O(N) => 배열의 인덱스를 새로 배정해야 하기 때문
+
+// 배열 메소드와 Big O
+// push O(1)
+// pop O(1)
+// shift O(N)
+// unshift O(N)
+// concat O(N) => 여러개의 배열을 합침
+// slice O(N)
+// splice O(N)
+// sort O(N * logN)
+// forEach, map, filter, reduce... O(N)
+
+// 배열로 할 수 있는 것은 거의 다 O(N)
